@@ -1,2 +1,2 @@
 # adocao
-CRUD de adocao de animais
+CRUD da ong para adocao de animais

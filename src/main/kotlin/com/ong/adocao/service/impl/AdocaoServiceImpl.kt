@@ -16,7 +16,7 @@ class AdocaoServiceImpl: AdocaoService {
     }
 
     override fun update(id: Long, adocao: Adocao) {
-        adocaoRepository.save(Adocao(id, adocao.raca, adocao.cor, adocao.porte, adocao.numeroIdentificacao))
+        adocaoRepository.save(Adocao(id, adocao.raca, adocao.cor, adocao.porte))
     }
 
     override fun getAll(): List<Adocao> {

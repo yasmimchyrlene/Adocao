@@ -14,7 +14,5 @@ data class Adocao(
         val raca: String = "",
         val cor: String = "",
         val porte: String = "",
-        val numeroIdentificacao: Int,
-
 
         )

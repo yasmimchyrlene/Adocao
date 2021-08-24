@@ -10,9 +10,12 @@ data class Adocao(
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
-        val id: Long,
+        val id: Long? = null,
         val raca: String = "",
         val cor: String = "",
+        val sexo: String = "",
         val porte: String = "",
+        val idade: Int,
+        val castrado: Boolean = true,
 
         )

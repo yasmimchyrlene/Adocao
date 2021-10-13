@@ -1,4 +1,4 @@
-package com.ong.adocao.Config
+package com.ong.adocao.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -28,10 +28,10 @@ class SwaggerConfig {
                     .title("API ONG adoção de animais")
                     .description("Api para controle de cães na ong")
                     .version("1.0.0")
-                    .termsOfServiceUrl("exemplo")
+                    .termsOfServiceUrl("https://www.example.com/")
                     .license("Lincença: GPLv3")
                     .licenseUrl("https://www.gnu.org/licenses/gpl-3.0.html")
-                    .contact(Contact("Yasmim Chyrlene", "exemplo", "yasmimchyrlene@hotmail.com"))
+                    .contact(Contact("Yasmim Chyrlene", "https://github.com/yasmimchyrlene", "yasmimchyrlene@hotmail.com"))
                     .build()
 
 }

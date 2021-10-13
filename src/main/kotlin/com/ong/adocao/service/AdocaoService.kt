@@ -4,7 +4,7 @@ import com.ong.adocao.model.Adocao
 
 interface AdocaoService {
 
-    fun create(adocao: Adocao)
+    fun create(adocao: Adocao): Adocao
     fun update(id: Long, adocao: Adocao)
     fun getAll():List<Adocao>
     fun getById(id: Long): Adocao
